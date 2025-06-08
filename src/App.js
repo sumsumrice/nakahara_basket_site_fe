@@ -12,7 +12,7 @@ function App() {
   // ローカル開発環境用
   //const API_BASE_URL = 'http://localhost:8000';
   // 本番環境用
-  const API_BASE_URL = 'https://nakahara_basket_site_be.onrender.com';
+  const API_BASE_URL = 'https://nakahara-basket-site-be.onrender.com';
 
   // ヘルスチェック
   const checkHealth = async () => {
