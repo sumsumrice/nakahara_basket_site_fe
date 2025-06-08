@@ -8,7 +8,11 @@ function App() {
   const [echoResponse, setEchoResponse] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const API_BASE_URL = 'http://localhost:8000';
+  // APIのベースURL
+  // ローカル開発環境用
+  //const API_BASE_URL = 'http://localhost:8000';
+  // 本番環境用
+  const API_BASE_URL = 'https://nakahara_basket_site_be.onrender.com';
 
   // ヘルスチェック
   const checkHealth = async () => {
